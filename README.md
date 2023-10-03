@@ -18,3 +18,4 @@ from google.colab import drive
 drive.mount('/content/drive')
 %cd drive/MyDrive/python-introducing-pandas-master/
 ```
+* You will be asked to authorize access each time you mount Google Drive to a Colab notebook, but this option means that you're able to save the notebooks in your drive to revisit
