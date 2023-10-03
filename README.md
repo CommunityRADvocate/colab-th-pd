@@ -3,10 +3,13 @@ Walkthrough of setting up Colab to be able to run the Treehouse notebooks
 
 ## Download repository file and add to Google Drive
 * Go to the [python-introducing-pandas](https://github.com/treehouse-projects/python-introducing-pandas) repository and click the green "Code <>" button
+
 ![](images/ss-download.jpg)
+
 * Select "Download ZIP", then unzip the file on your computer
 * Go to your [Google Drive](https://drive.google.com/drive/my-drive) and upload the folder you just unzipped into your main drive
 * Double click to go into the folder in Google Drive, and make sure it looks something like this:
+
 ![](images/ss-drive.jpg)
 
 ## Start working with the files
