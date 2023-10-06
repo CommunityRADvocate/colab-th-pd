@@ -17,8 +17,11 @@ Walkthrough of setting up Colab to be able to run the Treehouse notebooks
 * Because we're working in a virtual environment when using Colab, each time you open a notebook you'll need to connect it to Google Drive so that it can read the other files contained in the repository. I've gone ahead and written a code block that you can copy and paste in a new code block at the top of each notebook:
 
 ```
+# import drive module
 from google.colab import drive
+# mount Google Drive
 drive.mount('/content/drive')
+# navigate to working directory
 %cd drive/MyDrive/python-introducing-pandas-master/
 ```
 * You will be asked to authorize access each time you mount Google Drive to a Colab notebook, but this option means that you're able to save the notebooks in your drive to revisit
